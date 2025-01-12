@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Giới Thiệu Thực Tập</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-[#8B9FE8]">
+    <div class="flex min-h-screen">
+      <!-- Sidebar -->
+      <div
+        class="fixed w-80 h-screen bg-[#2A0944] text-white overflow-y-auto shadow-lg"
+      >
+        <div class="p-6 border-b border-[#3B185F]">
+          <h2 class="text-3xl font-bold text-center text-white">Menu</h2>
+        </div>
+        <nav class="mt-6">
+          <ul class="space-y-2">
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#home"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-home w-6 text-xl"></i>
+                <span class="ml-3">Trang chủ</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#company"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-building w-6 text-xl"></i>
+                <span class="ml-3">Giới thiệu công ty</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#process"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-tasks w-6 text-xl"></i>
+                <span class="ml-3">Quy trình thực tập</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#goals"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-bullseye w-6 text-xl"></i>
+                <span class="ml-3">Mục tiêu và kì vọng</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#policies"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-book w-6 text-xl"></i>
+                <span class="ml-3">Quy định và chính sách</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#guide"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-compass w-6 text-xl"></i>
+                <span class="ml-3">Hướng dẫn công việc</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#skills"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-brain w-6 text-xl"></i>
+                <span class="ml-3">Phát triển kỹ năng</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#support"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-headset w-6 text-xl"></i>
+                <span class="ml-3">Hỗ trợ và liên hệ</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#feedback"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-comments w-6 text-xl"></i>
+                <span class="ml-3">Đánh giá và phản hồi</span>
+              </a>
+            </li>
+            <li class="hover:bg-[#3B185F] transition-all duration-200">
+              <a
+                href="#end"
+                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+              >
+                <i class="fas fa-flag-checkered w-6 text-xl"></i>
+                <span class="ml-3">Kết thúc kỳ thực tập</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <div class="ml-80 flex-1 p-8">
+        <section
+          id="home"
+          class="bg-[#3B185F] rounded-lg shadow-xl p-8 mb-8 border-2 border-[#2A0944]"
+        >
+          <div class="flex items-start justify-between">
+            <div class="flex-1 pr-8">
+              <h1 class="text-4xl font-bold text-white mb-6">
+                Nguyễn Văn Thắng
+              </h1>
+              <h2 class="text-2xl text-blue-300 mb-4">Back-end Developer</h2>
+              <div class="text-white text-lg space-y-4">
+                <p class="leading-relaxed">
+                  Xin chào! Tôi là Nguyễn Văn Thắng, một Back-end Developer đầy
+                  nhiệt huyết và sáng tạo. Với niềm đam mê về công nghệ và phát
+                  triển phần mềm, tôi luôn tìm kiếm cơ hội để học hỏi và phát
+                  triển bản thân trong lĩnh vực back-end development.
+                </p>
+                <div class="mt-6 space-y-3">
+                  <div class="flex items-center">
+                    <i class="fas fa-envelope w-6 text-blue-300"></i>
+                    <span class="ml-3">Email: nguyenvanthang@gmail.com</span>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="fas fa-phone w-6 text-blue-300"></i>
+                    <span class="ml-3">Phone: +84 123 456 789</span>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="fas fa-map-marker-alt w-6 text-blue-300"></i>
+                    <span class="ml-3">Location: Hai Châu, Đà Nẵng</span>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="fas fa-graduation-cap w-6 text-blue-300"></i>
+                    <span class="ml-3">GPA: 8.0/10</span>
+                  </div>
+                </div>
+                <div class="mt-6 flex space-x-4">
+                  <a
+                    href="#"
+                    class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition duration-300"
+                  >
+                    <i class="fab fa-github mr-2"></i>GitHub
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition duration-300"
+                  >
+                    <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-64 h-64 flex-shrink-0">
+              <img
+                src="img/thang.jpg"
+                alt="Nguyễn Văn Thắng"
+                class="w-full h-full object-cover rounded-full border-4 border-blue-300 shadow-lg"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="skills-overview"
+          class="bg-[#3B185F] rounded-lg shadow-xl p-8 mb-8 border-2 border-[#2A0944]"
+        >
+          <h2 class="text-3xl font-bold text-white mb-6">Kỹ năng chuyên môn</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-blue-300 mb-3">
+                Back-end Development
+              </h3>
+              <ul class="text-white space-y-2">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  Node.js / Express.js
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  PHP / Laravel
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  RESTful APIs
+                </li>
+              </ul>
+            </div>
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-blue-300 mb-3">Databases</h3>
+              <ul class="text-white space-y-2">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  MySQL
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  MongoDB
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  PostgreSQL
+                </li>
+              </ul>
+            </div>
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-blue-300 mb-3">
+                Công cụ & Công nghệ
+              </h3>
+              <ul class="text-white space-y-2">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  Git / GitHub
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  Docker
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-blue-300 mr-2"></i>
+                  AWS / Cloud Services
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="personal-skills"
+          class="bg-[#3B185F] rounded-lg shadow-xl p-8 mb-8 border-2 border-[#2A0944]"
+        >
+          <h2 class="text-3xl font-bold text-white mb-6">Kỹ năng cá nhân</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-blue-300 mb-4">Kỹ năng mềm</h3>
+              <ul class="text-white space-y-3">
+                <li class="flex items-center">
+                  <i class="fas fa-star text-blue-300 mr-3"></i>
+                  <span>Khả năng làm việc nhóm tốt</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-star text-blue-300 mr-3"></i>
+                  <span>Kỹ năng giao tiếp hiệu quả</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-star text-blue-300 mr-3"></i>
+                  <span>Tư duy logic và giải quyết vấn đề</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-star text-blue-300 mr-3"></i>
+                  <span>Khả năng tự học và nghiên cứu</span>
+                </li>
+              </ul>
+            </div>
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-blue-300 mb-4">Ngôn ngữ</h3>
+              <ul class="text-white space-y-3">
+                <li class="flex items-center">
+                  <i class="fas fa-language text-blue-300 mr-3"></i>
+                  <span>Tiếng Việt (Bản địa)</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-language text-blue-300 mr-3"></i>
+                  <span>Tiếng Anh (Giao tiếp tốt)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="strengths-weaknesses"
+          class="bg-[#3B185F] rounded-lg shadow-xl p-8 mb-8 border-2 border-[#2A0944]"
+        >
+          <h2 class="text-3xl font-bold text-white mb-6">
+            Điểm mạnh & Điểm yếu
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-green-400 mb-4">
+                <i class="fas fa-plus-circle mr-2"></i>Điểm mạnh
+              </h3>
+              <ul class="text-white space-y-3">
+                <li class="flex items-start">
+                  <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                  <span
+                    >Khả năng tự học và thích nghi nhanh với công nghệ mới</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                  <span>Tư duy logic tốt trong giải quyết vấn đề</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                  <span>Có tinh thần trách nhiệm và làm việc nghiêm túc</span>
+                </li>
+              </ul>
+            </div>
+            <div class="bg-[#2A0944] p-6 rounded-lg">
+              <h3 class="text-xl font-bold text-red-400 mb-4">
+                <i class="fas fa-minus-circle mr-2"></i>Điểm yếu
+              </h3>
+              <ul class="text-white space-y-3">
+                <li class="flex items-start">
+                  <i class="fas fa-exclamation text-red-400 mt-1 mr-3"></i>
+                  <span>Đôi khi quá tập trung vào chi tiết kỹ thuật</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-exclamation text-red-400 mt-1 mr-3"></i>
+                  <span>Cần cải thiện kỹ năng quản lý thời gian</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-exclamation text-red-400 mt-1 mr-3"></i>
+                  <span>Thỉnh thoảng thiếu tự tin khi thuyết trình</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="projects"
+          class="bg-[#3B185F] rounded-lg shadow-xl p-8 mb-8 border-2 border-[#2A0944]"
+        >
+          <h2 class="text-3xl font-bold text-white mb-8">Dự án của tôi</h2>
+          <div class="space-y-10">
+            <!-- Dự án 1 -->
+            <div class="bg-[#2A0944] p-12 rounded-lg">
+              <div class="flex flex-col md:flex-row gap-8">
+                <div class="w-full md:w-1/2">
+                  <img
+                    src="img/project1.jpg"
+                    alt="Linux Ticket Cinematic"
+                    class="w-full h-full object-cover rounded-lg shadow-md"
+                  />
+                </div>
+                <div class="w-full md:w-1/2">
+                  <h3 class="text-2xl font-bold text-blue-300 mb-6">
+                    Linux Ticket Cinematic
+                  </h3>
+                  <div class="text-gray-300 mb-4">
+                    <i class="far fa-calendar-alt text-blue-300 mr-2"></i>
+                    <span>9/2024 - 11/2024</span>
+                  </div>
+                  <p class="text-white mb-8 text-lg leading-relaxed">
+                    Linux Ticket Cinematic là website đặt vé xem phim trực tuyến
+                    cung cấp trải nghiệm mua vé nhanh chóng và tiện lợi. Người
+                    dùng có thể dễ dàng chọn phim, suất chiếu và thực hiện thanh
+                    toán an toàn, với giao diện thân thiện và dịch vụ hỗ trợ tận
+                    tâm.
+                  </p>
+                  <div class="space-y-6">
+                    <div class="flex items-center text-gray-300">
+                      <i class="fas fa-tools w-6 text-blue-300"></i>
+                      <span class="ml-2 text-lg"
+                        >Công nghệ sử dụng: Node.js, React.js, Javascript,
+                        MongoDB</span
+                      >
+                    </div>
+                    <div class="flex items-center text-gray-300">
+                      <i class="fas fa-code-branch w-6 text-blue-300"></i>
+                      <span class="ml-2 text-lg">
+                        Source:
+                        <a
+                          href="https://github.com/NguyenVanThangzzz/Final2024"
+                          class="text-blue-300 hover:underline"
+                          target="_blank"
+                          >github.com/NguyenVanThangzzz/Final2024</a
+                        >
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dự án 2 -->
+            <div class="bg-[#2A0944] p-12 rounded-lg">
+              <div class="flex flex-col md:flex-row gap-8">
+                <div class="w-full md:w-1/2">
+                  <img
+                    src="img/project2.png"
+                    alt="Online Magazine"
+                    class="w-full h-full object-cover rounded-lg shadow-md"
+                  />
+                </div>
+                <div class="w-full md:w-1/2">
+                  <h3 class="text-2xl font-bold text-blue-300 mb-6">
+                    Online Magazine
+                  </h3>
+                  <div class="text-gray-300 mb-4">
+                    <i class="far fa-calendar-alt text-blue-300 mr-2"></i>
+                    <span>2/2024 - 4/2024</span>
+                  </div>
+                  <p class="text-white mb-8 text-lg leading-relaxed">
+                    Online Magazine là nền tảng báo chí trực tuyến được phát
+                    triển bằng C# và .NET, với mục tiêu cung cấp các bài viết đa
+                    dạng và chất lượng cao. Website được xây dựng bởi đội ngũ
+                    phát triển, tối ưu hóa hiệu suất và trải nghiệm người dùng
+                    trên nhiều thiết bị.
+                  </p>
+                  <div class="space-y-6">
+                    <div class="flex items-center text-gray-300">
+                      <i class="fas fa-tools w-6 text-blue-300"></i>
+                      <span class="ml-2 text-lg"
+                        >Công nghệ sử dụng: C#, .NET, HTML, CSS</span
+                      >
+                    </div>
+                    <div class="flex items-center text-gray-300">
+                      <i class="fas fa-users w-6 text-blue-300"></i>
+                      <span class="ml-2 text-lg">Thành viên: 7 members</span>
+                    </div>
+                    <div class="flex items-center text-gray-300">
+                      <i class="fas fa-code-branch w-6 text-blue-300"></i>
+                      <span class="ml-2 text-lg">
+                        Source:
+                        <a
+                          href="https://github.com/qngoc07012002/COMP1640_EnterpriseWeb_GroupProject"
+                          class="text-blue-300 hover:underline"
+                          target="_blank"
+                          >github.com/qngoc07012002/COMP1640_EnterpriseWeb_GroupProject</a
+                        >
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
