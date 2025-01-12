@@ -9,103 +9,113 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <style>
+      @keyframes tilt {
+        0%, 100% { transform: rotate(0deg); }
+        25% { transform: rotate(1deg); }
+        75% { transform: rotate(-1deg); }
+      }
+      .animate-tilt {
+        animation: tilt 10s infinite ease-in-out;
+      }
+    </style>
   </head>
-  <body class="bg-[#8B9FE8]">
+  <body class="bg-slate-900">
     <div class="flex min-h-screen">
       <!-- Sidebar -->
       <div
-        class="fixed w-80 h-screen bg-[#2A0944] text-white overflow-y-auto shadow-lg"
+        class="fixed w-80 h-screen bg-slate-800 bg-opacity-90 text-white overflow-y-auto shadow-lg backdrop-blur-sm border-r border-sky-500/20"
       >
-        <div class="p-6 border-b border-[#3B185F]">
-          <h2 class="text-3xl font-bold text-center text-white">Menu</h2>
+        <div class="p-6 border-b border-sky-500/30">
+          <h2 class="text-3xl font-bold text-center text-sky-400">Menu</h2>
         </div>
         <nav class="mt-6">
           <ul class="space-y-2">
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="index.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-home w-6 text-xl"></i>
                 <span class="ml-3">Trang chủ</span>
               </a>
             </li>
-            <li class="bg-[#3B185F] transition-all duration-200">
+            <li class="bg-sky-900/50 transition-all duration-200">
               <a
                 href="company.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-building w-6 text-xl"></i>
                 <span class="ml-3">Giới thiệu công ty</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="process.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-tasks w-6 text-xl"></i>
                 <span class="ml-3">Quy trình thực tập</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="goals.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-bullseye w-6 text-xl"></i>
                 <span class="ml-3">Mục tiêu và kì vọng</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="policies.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-book w-6 text-xl"></i>
                 <span class="ml-3">Quy định và chính sách</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="guide.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-compass w-6 text-xl"></i>
                 <span class="ml-3">Hướng dẫn công việc</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="skills.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-brain w-6 text-xl"></i>
                 <span class="ml-3">Phát triển kỹ năng</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="support.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-headset w-6 text-xl"></i>
                 <span class="ml-3">Hỗ trợ và liên hệ</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="feedback.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-comments w-6 text-xl"></i>
                 <span class="ml-3">Đánh giá và phản hồi</span>
               </a>
             </li>
-            <li class="hover:bg-[#3B185F] transition-all duration-200">
+            <li class="hover:bg-sky-900/50 transition-all duration-200">
               <a
                 href="end.html"
-                class="flex items-center px-6 py-4 text-white hover:text-white text-lg"
+                class="flex items-center px-6 py-4 text-sky-300 hover:text-sky-200 text-lg"
               >
                 <i class="fas fa-flag-checkered w-6 text-xl"></i>
                 <span class="ml-3">Kết thúc kỳ thực tập</span>
@@ -118,9 +128,9 @@
       <!-- Main Content -->
       <div class="ml-80 flex-1 p-8">
         <section
-          class="bg-[#3B185F] rounded-lg shadow-xl p-8 mb-8 border-2 border-[#2A0944]"
+          class="bg-slate-800 bg-opacity-90 backdrop-blur-sm rounded-lg shadow-xl p-8 mb-8 border border-sky-500/30"
         >
-          <h2 class="text-3xl font-bold text-white mb-8">
+          <h2 class="text-3xl font-bold text-sky-400 mb-8">
             Giới thiệu FPT Software
           </h2>
 
@@ -136,8 +146,8 @@
           </div>
 
           <!-- Giới thiệu chung -->
-          <div class="bg-[#2A0944] p-8 rounded-lg mb-8">
-            <h3 class="text-2xl font-bold text-blue-300 mb-4">Tổng quan</h3>
+          <div class="bg-slate-900/50 p-8 rounded-lg mb-8 border border-sky-500/20">
+            <h3 class="text-2xl font-bold text-sky-300 mb-4">Tổng quan</h3>
             <p class="text-white text-lg leading-relaxed mb-6">
               FPT Software là công ty thành viên của Tập đoàn FPT, được thành
               lập từ năm 1999. Là một trong những công ty công nghệ hàng đầu
@@ -145,15 +155,15 @@
               các khách hàng toàn cầu.
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-              <div class="bg-[#3B185F] p-4 rounded-lg">
+              <div class="bg-sky-900 p-4 rounded-lg">
                 <div class="text-3xl font-bold text-blue-300 mb-2">27,000+</div>
                 <div class="text-white">Nhân viên</div>
               </div>
-              <div class="bg-[#3B185F] p-4 rounded-lg">
+              <div class="bg-sky-900 p-4 rounded-lg">
                 <div class="text-3xl font-bold text-blue-300 mb-2">500+</div>
                 <div class="text-white">Khách hàng Fortune 500</div>
               </div>
-              <div class="bg-[#3B185F] p-4 rounded-lg">
+              <div class="bg-sky-900 p-4 rounded-lg">
                 <div class="text-3xl font-bold text-blue-300 mb-2">26</div>
                 <div class="text-white">Quốc gia</div>
               </div>
@@ -162,16 +172,16 @@
 
           <!-- Giá trị cốt lõi -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div class="bg-[#2A0944] p-8 rounded-lg">
-              <h3 class="text-2xl font-bold text-blue-300 mb-4">Tầm nhìn</h3>
+            <div class="bg-slate-900/50 p-8 rounded-lg border border-sky-500/20">
+              <h3 class="text-2xl font-bold text-sky-300 mb-4">Tầm nhìn</h3>
               <p class="text-white text-lg leading-relaxed">
                 Trở thành công ty công nghệ toàn cầu, tiên phong trong chuyển
                 đổi số, góp phần đưa Việt Nam trở thành quốc gia công nghệ hàng
                 đầu thế giới.
               </p>
             </div>
-            <div class="bg-[#2A0944] p-8 rounded-lg">
-              <h3 class="text-2xl font-bold text-blue-300 mb-4">Sứ mệnh</h3>
+            <div class="bg-slate-900/50 p-8 rounded-lg border border-sky-500/20">
+              <h3 class="text-2xl font-bold text-sky-300 mb-4">Sứ mệnh</h3>
               <p class="text-white text-lg leading-relaxed">
                 Tiên phong cung cấp dịch vụ và giải pháp công nghệ để chuyển đổi
                 số cho các tổ chức và doanh nghiệp toàn cầu.
@@ -180,13 +190,13 @@
           </div>
 
           <!-- Lĩnh vực hoạt động -->
-          <div class="bg-[#2A0944] p-8 rounded-lg">
-            <h3 class="text-2xl font-bold text-blue-300 mb-6">
+          <div class="bg-slate-900/50 p-8 rounded-lg border border-sky-500/20">
+            <h3 class="text-2xl font-bold text-sky-300 mb-6">
               Lĩnh vực hoạt động chính
             </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div class="flex items-start space-x-4">
-                <i class="fas fa-code text-blue-300 text-2xl mt-1"></i>
+                <i class="fas fa-code text-sky-300 text-2xl mt-1"></i>
                 <div>
                   <h4 class="text-xl font-semibold text-white mb-2">
                     Phát triển phần mềm
@@ -197,7 +207,7 @@
                 </div>
               </div>
               <div class="flex items-start space-x-4">
-                <i class="fas fa-cloud text-blue-300 text-2xl mt-1"></i>
+                <i class="fas fa-cloud text-sky-300 text-2xl mt-1"></i>
                 <div>
                   <h4 class="text-xl font-semibold text-white mb-2">
                     Điện toán đám mây
@@ -208,7 +218,7 @@
                 </div>
               </div>
               <div class="flex items-start space-x-4">
-                <i class="fas fa-robot text-blue-300 text-2xl mt-1"></i>
+                <i class="fas fa-robot text-sky-300 text-2xl mt-1"></i>
                 <div>
                   <h4 class="text-xl font-semibold text-white mb-2">
                     AI & Machine Learning
@@ -219,7 +229,7 @@
                 </div>
               </div>
               <div class="flex items-start space-x-4">
-                <i class="fas fa-mobile-alt text-blue-300 text-2xl mt-1"></i>
+                <i class="fas fa-mobile-alt text-sky-300 text-2xl mt-1"></i>
                 <div>
                   <h4 class="text-xl font-semibold text-white mb-2">
                     Phát triển ứng dụng di động
@@ -228,7 +238,7 @@
                 </div>
               </div>
               <div class="flex items-start space-x-4">
-                <i class="fas fa-shield-alt text-blue-300 text-2xl mt-1"></i>
+                <i class="fas fa-shield-alt text-sky-300 text-2xl mt-1"></i>
                 <div>
                   <h4 class="text-xl font-semibold text-white mb-2">
                     An ninh mạng
@@ -239,7 +249,7 @@
                 </div>
               </div>
               <div class="flex items-start space-x-4">
-                <i class="fas fa-chart-line text-blue-300 text-2xl mt-1"></i>
+                <i class="fas fa-chart-line text-sky-300 text-2xl mt-1"></i>
                 <div>
                   <h4 class="text-xl font-semibold text-white mb-2">
                     Chuyển đổi số
